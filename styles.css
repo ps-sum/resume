@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #FBF4DB;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #AA5486;
+    color: #FBF4DB;
+    border-bottom: 5px solid #FC8F54;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  header .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #FC8F54;
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #FC8F54;
+    list-style: none;
+    padding: 15px 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #FBF4DB;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+    background-color: #FDE7BB;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  section h2 {
+    color: #AA5486;
+    border-bottom: 2px solid #FC8F54;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    background-color: #FBF4DB;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  form input, form textarea, form button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FC8F54;
+    border-radius: 5px;
+  }
+  
+  form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #AA5486;
+  }
+  
+  form button {
+    background-color: #AA5486;
+    color: #FBF4DB;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #FC8F54;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #AA5486;
+    color: #FBF4DB;
+    margin-top: 30px;
+    border-top: 5px solid #FC8F54;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #FBF4DB;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  table th, table td {
+    border: 1px solid #FC8F54;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #AA5486;
+    color: #FBF4DB;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #FDE7BB;
+  }
+  
+  a {
+    color: #AA5486;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #FC8F54;
+  }
+  
